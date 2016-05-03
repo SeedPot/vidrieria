@@ -1,0 +1,8 @@
+<%= form_tag do %>
+  <%= radio_button_tag(:type, "measurable") %>
+  <%= label_tag(:type_measurable, "Producto Medible") %>
+  <%= radio_button_tag(:type, "crystal") %>
+  <%= label_tag(:type_crystal, "Cristal") %>
+  <%= radio_button_tag(:type, "quantifiable") %>
+  <%= label_tag(:type_quantifiable, "Producto Cuantificable") %>
+<% end %>

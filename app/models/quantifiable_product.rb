@@ -1,0 +1,2 @@
+class QuantifiableProduct < Product
+end
